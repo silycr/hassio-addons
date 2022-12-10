@@ -3,7 +3,7 @@
     "version": "2022.10.4",
     "slug": "3dprinter",
     "description": "3DPrinter add-on for Home Assistant. OctoPrint, Klipper and more.",
-    "url": "https://github.com/fredrikbaberg/hassio-addons/tree/master/3dprinter",
+    "url": "https://github.com/silycr/hassio-addons/tree/master/3dprinter",
     "arch": ["armhf", "armv7", "amd64", "aarch64", "i386"],
     "ports": {
         "5000/tcp": null,
@@ -43,7 +43,7 @@
         "moonraker": "bool?",
         "recovery": "bool"
     },
-    "image": "ghcr.io/fredrikbaberg/addon-3dprinter-{arch}",
+    "image": "ghcr.io/silycr/addon-3dprinter-{arch}",
     "tmpfs": true,
     "ingress": true,
     "panel_icon": "mdi:printer-3d",
